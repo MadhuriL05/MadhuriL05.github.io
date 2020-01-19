@@ -1,0 +1,33 @@
+body,html{
+	background-color: #A3D5E3;
+}
+
+.brand{
+	width: 100%;
+	height:100%;
+	background-color: #A3D5E3;
+	border:0 solid;
+}
+
+.navbar{
+	background-color: #F08080;
+}
+
+.btn{
+	font-weight: 700;
+	border-radius: 300px;
+	color: #F08080
+}
+
+.btn-xl{
+	border-color: #F08080;
+}
+
+.btn:hover{
+	background-color: #F08080;
+	border-color: #F08080;
+}
+
+.btn-xl:hover{
+	color: white;
+}
