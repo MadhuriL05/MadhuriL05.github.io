@@ -1,5 +1,5 @@
 body,html{
-	background-color: #A3D5E3;
+	background-color: #f8f9fa;
 }
 
 .brand{
@@ -7,10 +7,6 @@ body,html{
 	height:100%;
 	background-color: #A3D5E3;
 	border:0 solid;
-}
-
-.navbar{
-	background-color: #F08080;
 }
 
 .btn{
@@ -31,3 +27,47 @@ body,html{
 .btn-xl:hover{
 	color: white;
 }
+
+.slog{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #F08080;
+	height: 75px;
+	animation-name: example;
+  	animation-duration: 6s;
+  	animation-delay: 2s
+}
+@keyframes example {
+    0%{background-color:#F08080; left:0px; top:0px;}
+  25%  {background-color:#20c997; left:200px; top:0px;}
+  50%  {background-color:black; left:200px; top:200px;}
+  75%  {background-color:#ffc107; left:0px; top:200px;}
+  100% {background-color:#A3D5E3; left:0px; top:0px;}
+}
+
+h1{
+	font-family: 'Cabin Sketch', sans-serif;
+	color: white;
+	text-align: center;
+	font-size: 2em;
+}
+
+.container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+
+}
+
+img{
+	width: 450px;
+	height: 300px;
+	transition: all 1s;
+	margin: 20px
+}
+
+img:hover{
+	transform: scale(1.1);
+}
+
